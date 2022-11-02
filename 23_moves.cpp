@@ -9,11 +9,13 @@ using namespace std;
 void solve() {
         int n;
         cin >> n;
-        if(n == 1){
-            cout << 2 << endl;
+        if( n == 1 ){
+            cout << 2  << endl;
         }
-        int steps = (n + 2) / 3;
+        else{ int steps = (n + 2) / 3;
         cout << steps << endl;
+        
+}
 }
 
 int main() {
